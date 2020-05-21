@@ -1,6 +1,6 @@
-fun get_year(date) = #1 date
-fun get_month(date) = #2 date
-fun get_day(date) = #3 date
+fun get_year(date: int*int*int) = #1 date
+fun get_month(date: int*int*int) = #2 date
+fun get_day(date: int*int*int) = #3 date
 
 
 fun is_older (first: int*int*int, second: int*int*int) =
